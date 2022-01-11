@@ -1,0 +1,23 @@
+           
+
+### Основные команды гита 
+
+· git init – инициализация проекта
+· git config --local(global) user.name user.name “Ivan”
+· git config --local(global) user.email example@gmail.com – информация о прогере
+· git status – статус гита
+· git add -A (или названия файла) – все добавить файлы
+· git commit -a –m ”commit” – коммит
+· git log – посмотреть историю коммитов
+· git remote add origin https://github.com/ссылка на репозиторий - добавить репозиторий (origin) гитхаба
+· git push -u origin master – запушить файлы в репозиторий (origin)
+· git push – запушить файлы в репозиторий, который мы выбрали командой выше
+· git remote set-url origin “url” – изменить репу
+· git remote – удалить привязку к репу
+
+### Работа с разных устройств
+· Для начала зайти в нужную папку
+· git clone https://github.com/ссылка на репозиторий НазваниеПапки - клонирование репозитория в локальную папку
+· git pull – установка самой свежей версии кода из репозитория
+
+Оглавление: [[https://github.com/maximumJavascript/js-notes-md/blob/develop/%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.md]].
